@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cda88830-6c28-4f62-b453-e05c82f4551d" name="Оксана@ACER-PC 2018-04-25 16:32:20" runUser="ACER-PC\Оксана" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="6d2ca02c-1620-43e3-abef-9b913df1210a">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Оксана_ACER-PC 2018-04-25 16_32_20">
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-04-25T16:32:20.7061581+03:00" queuing="2018-04-25T16:32:29.8170433+03:00" start="2018-04-25T16:32:30.0043828+03:00" finish="2018-04-25T16:35:38.8173250+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\оксана\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="d11c116f-98f6-45ef-b12a-cf2702be52fb" />
+      <TestMethod codeBase="C:/Users/Оксана/Documents/Visual Studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="d11c116f-98f6-45ef-b12a-cf2702be52fb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d11c116f-98f6-45ef-b12a-cf2702be52fb" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="ACER-PC" duration="00:03:04.5147864" startTime="2018-04-25T16:32:30.3950230+03:00" endTime="2018-04-25T16:35:36.9104257+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d11c116f-98f6-45ef-b12a-cf2702be52fb">
+      <Output>
+        <ErrorInfo>
+          <Message>Метод проверки TestProject1.UnitTest1.TestMethod1 выдал исключение: OpenQA.Selenium.WebDriverException: The HTTP request to the remote WebDriver server for URL http://localhost:52992/session/dcc4dabf6f32e10f995459cf2fb06fd1/element/0.36174896842211823-1/submit timed out after 60 seconds. ---&gt; System.Net.WebException: Время ожидания операции истекло.</Message>
+          <StackTrace>    в System.Net.HttpWebRequest.GetResponse()
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:строка 142
+ --- Конец трассировки стека внутреннего исключения ---
+    в OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:строка 150
+   в OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:строка 114
+   в OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\DriverServiceCommandExecutor.cs:строка 78
+   в OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:строка 910
+   в OpenQA.Selenium.Remote.RemoteWebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:строка 781
+   в OpenQA.Selenium.Remote.RemoteWebElement.Execute(String commandToExecute, Dictionary`2 parameters) в c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebElement.cs:строка 849
+   в OpenQA.Selenium.Remote.RemoteWebElement.Submit() в c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebElement.cs:строка 318
+   в TestProject1.UnitTest1.TestMethod1() в C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\UnitTest1.cs:строка 23
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

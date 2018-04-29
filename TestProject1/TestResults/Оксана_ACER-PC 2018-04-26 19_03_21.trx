@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7aef8d16-b322-4ad5-b6d5-b757b3317258" name="Оксана@ACER-PC 2018-04-26 19:03:21" runUser="ACER-PC\Оксана" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="6d2ca02c-1620-43e3-abef-9b913df1210a">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Оксана_ACER-PC 2018-04-26 19_03_21">
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-04-26T19:03:21.7567205+03:00" queuing="2018-04-26T19:03:43.5909464+03:00" start="2018-04-26T19:03:44.9533403+03:00" finish="2018-04-26T19:05:43.1179522+03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\оксана\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="a42f7691-27bf-4726-a686-b61415e686ea" />
+      <TestMethod codeBase="C:/Users/Оксана/Documents/Visual Studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="a42f7691-27bf-4726-a686-b61415e686ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a42f7691-27bf-4726-a686-b61415e686ea" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="ACER-PC" duration="00:01:45.1231225" startTime="2018-04-26T19:03:45.5627398+03:00" endTime="2018-04-26T19:05:38.3307902+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a42f7691-27bf-4726-a686-b61415e686ea">
+      <Output>
+        <ErrorInfo>
+          <Message>Метод проверки TestProject1.UnitTest1.TestMethod1 выдал исключение: OpenQA.Selenium.IllegalLocatorException: Compound class names are not supported. Consider searching for one class name and filtering the results..</Message>
+          <StackTrace>    в OpenQA.Selenium.By.ClassName(String classNameToFind) в c:\Projects\webdriver\dotnet\src\webdriver\By.cs:строка 192
+   в TestProject1.UnitTest1.TestMethod1() в C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\UnitTest1.cs:строка 26
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

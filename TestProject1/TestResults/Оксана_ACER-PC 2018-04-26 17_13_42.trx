@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cee13804-b892-4f17-90f0-7b062e1ed9ed" name="Оксана@ACER-PC 2018-04-26 17:13:42" runUser="ACER-PC\Оксана" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="6d2ca02c-1620-43e3-abef-9b913df1210a">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Оксана_ACER-PC 2018-04-26 17_13_42">
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-04-26T17:13:42.7878509+03:00" queuing="2018-04-26T17:13:47.9935897+03:00" start="2018-04-26T17:13:48.1498445+03:00" finish="2018-04-26T17:15:34.0590028+03:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\оксана\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="836b4a3a-d8cc-46d4-bcad-c25cfe4cc678" />
+      <TestMethod codeBase="C:/Users/Оксана/Documents/Visual Studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="836b4a3a-d8cc-46d4-bcad-c25cfe4cc678" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="836b4a3a-d8cc-46d4-bcad-c25cfe4cc678" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="ACER-PC" duration="00:01:44.5443711" startTime="2018-04-26T17:13:48.2435998+03:00" endTime="2018-04-26T17:15:33.8749433+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="836b4a3a-d8cc-46d4-bcad-c25cfe4cc678">
+      <Output>
+        <ErrorInfo>
+          <Message>Ошибка в Assert.Inconclusive. По запросу ничего не найдено</Message>
+          <StackTrace>   в TestProject1.UnitTest1.TestMethod1() в C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\UnitTest1.cs:строка 37
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

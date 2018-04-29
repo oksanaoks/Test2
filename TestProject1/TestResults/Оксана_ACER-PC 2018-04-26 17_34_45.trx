@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="07d1756f-cd70-4a98-bad8-183c7ae13a23" name="Оксана@ACER-PC 2018-04-26 17:34:45" runUser="ACER-PC\Оксана" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Локальные" id="6d2ca02c-1620-43e3-abef-9b913df1210a">
+    <Description>Это - параметры по умолчанию для локального тестового запуска.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Оксана_ACER-PC 2018-04-26 17_34_45">
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\Selenium.WebDriverBackedSelenium.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\ThoughtWorks.Selenium.Core.dll" />
+      <DeploymentItem filename="C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\net40\WebDriver.Support.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-04-26T17:34:45.3203410+03:00" queuing="2018-04-26T17:34:46.8181662+03:00" start="2018-04-26T17:34:47.0754564+03:00" finish="2018-04-26T17:35:45.1452648+03:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\оксана\documents\visual studio 2010\projects\testproject1\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="3545d407-6f96-47dc-b8e2-b83085f7281f" />
+      <TestMethod codeBase="C:/Users/Оксана/Documents/Visual Studio 2010/Projects/TestProject1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Отсутствующие в списке результаты" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="3545d407-6f96-47dc-b8e2-b83085f7281f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3545d407-6f96-47dc-b8e2-b83085f7281f" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="ACER-PC" duration="00:00:56.4876229" startTime="2018-04-26T17:34:47.2785940+03:00" endTime="2018-04-26T17:35:44.8142383+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3545d407-6f96-47dc-b8e2-b83085f7281f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,17 @@
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.csprojResolveAssemblyReference.cache
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\Selenium.WebDriverBackedSelenium.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.Support.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\Selenium.WebDriverBackedSelenium.pdb
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\Selenium.WebDriverBackedSelenium.xml
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\ThoughtWorks.Selenium.Core.pdb
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.pdb
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.xml
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.Support.pdb
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\bin\Debug\WebDriver.Support.xml
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\Оксана\Documents\Visual Studio 2010\Projects\TestProject1\TestProject1\obj\Debug\TestProject1.pdb
